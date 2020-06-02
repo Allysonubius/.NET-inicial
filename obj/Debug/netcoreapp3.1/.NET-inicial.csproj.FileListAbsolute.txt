@@ -1,0 +1,13 @@
+C:\Users\allys\Documents\GitHub\.NET-inicial\bin\Debug\netcoreapp3.1\.NET-inicial.exe
+C:\Users\allys\Documents\GitHub\.NET-inicial\bin\Debug\netcoreapp3.1\.NET-inicial.deps.json
+C:\Users\allys\Documents\GitHub\.NET-inicial\bin\Debug\netcoreapp3.1\.NET-inicial.runtimeconfig.json
+C:\Users\allys\Documents\GitHub\.NET-inicial\bin\Debug\netcoreapp3.1\.NET-inicial.runtimeconfig.dev.json
+C:\Users\allys\Documents\GitHub\.NET-inicial\bin\Debug\netcoreapp3.1\.NET-inicial.dll
+C:\Users\allys\Documents\GitHub\.NET-inicial\bin\Debug\netcoreapp3.1\.NET-inicial.pdb
+C:\Users\allys\Documents\GitHub\.NET-inicial\obj\Debug\netcoreapp3.1\.NET-inicial.csprojAssemblyReference.cache
+C:\Users\allys\Documents\GitHub\.NET-inicial\obj\Debug\netcoreapp3.1\.NET-inicial.AssemblyInfoInputs.cache
+C:\Users\allys\Documents\GitHub\.NET-inicial\obj\Debug\netcoreapp3.1\.NET-inicial.AssemblyInfo.cs
+C:\Users\allys\Documents\GitHub\.NET-inicial\obj\Debug\netcoreapp3.1\.NET-inicial.csproj.CoreCompileInputs.cache
+C:\Users\allys\Documents\GitHub\.NET-inicial\obj\Debug\netcoreapp3.1\.NET-inicial.dll
+C:\Users\allys\Documents\GitHub\.NET-inicial\obj\Debug\netcoreapp3.1\.NET-inicial.pdb
+C:\Users\allys\Documents\GitHub\.NET-inicial\obj\Debug\netcoreapp3.1\.NET-inicial.genruntimeconfig.cache
