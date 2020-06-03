@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allys\\Documents\\GitHub\\.NET-inicial\\.NET-inicial.csproj",
-      "projectName": ".NET-inicial",
-      "projectPath": "C:\\Users\\allys\\Documents\\GitHub\\.NET-inicial\\.NET-inicial.csproj",
+      "projectUniqueName": "C:\\Users\\allys\\Documents\\GitHub\\.NET-inicial\\EstruturaDoPrograma.csproj",
+      "projectName": "EstruturaDoPrograma",
+      "projectPath": "C:\\Users\\allys\\Documents\\GitHub\\.NET-inicial\\EstruturaDoPrograma.csproj",
       "packagesPath": "C:\\Users\\allys\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\allys\\Documents\\GitHub\\.NET-inicial\\obj\\",
       "projectStyle": "PackageReference",
