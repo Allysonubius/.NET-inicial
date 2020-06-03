@@ -1,0 +1,13 @@
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\bin\Debug\netcoreapp3.1\Instrucoes.exe
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\bin\Debug\netcoreapp3.1\Instrucoes.deps.json
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\bin\Debug\netcoreapp3.1\Instrucoes.runtimeconfig.json
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\bin\Debug\netcoreapp3.1\Instrucoes.runtimeconfig.dev.json
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\bin\Debug\netcoreapp3.1\Instrucoes.dll
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\bin\Debug\netcoreapp3.1\Instrucoes.pdb
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\obj\Debug\netcoreapp3.1\Instrucoes.csprojAssemblyReference.cache
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\obj\Debug\netcoreapp3.1\Instrucoes.AssemblyInfoInputs.cache
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\obj\Debug\netcoreapp3.1\Instrucoes.AssemblyInfo.cs
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\obj\Debug\netcoreapp3.1\Instrucoes.csproj.CoreCompileInputs.cache
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\obj\Debug\netcoreapp3.1\Instrucoes.dll
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\obj\Debug\netcoreapp3.1\Instrucoes.pdb
+C:\Users\allys\Documents\GitHub\.NET-inicial\Instrucoes\obj\Debug\netcoreapp3.1\Instrucoes.genruntimeconfig.cache
