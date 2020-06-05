@@ -1,14 +1,15 @@
 ﻿using System;
 
+
 namespace Revisao
 {
     class Program
     {
         static void Main(string[] args)
         {
-        	Aluno[] alunos = new Aluno[5];
+            Aluno[] alunos = new Aluno[5];
 
-        	var indiceAluno = 0;
+            var indiceAluno = 0;
 
             string opçãoUsuario = ObterOpcaoUsuario();
 
@@ -18,35 +19,62 @@ namespace Revisao
                 {
                     case "1":
                         // TO DO:Adicionar aluno
-                    	Console.WriteLine("Informe o nome do aluno:");
-                    	Aluno aluno = new Aluno();
-                    	aluno.Nome = Console.ReadLine();
+                        Console.WriteLine("Informe o nome do aluno:");
+                        Aluno aluno = new Aluno();
+                        aluno.Nome = Console.ReadLine();
 
-                    	Console.WriteLine("Informe a nota do aluno");
+                        Console.WriteLine("Informe a nota do aluno");
 
-                    	if(decimal.TryParse(Console.ReadLine(), out decimal nota))
-                    	{
-                    		aluno.Nota = nota;
-                    	}else{
-                    		throw new ArgumentException("O valor da nota deve ser decimal !");
-                    	}
+                        if (decimal.TryParse(Console.ReadLine(), out decimal nota))
+                        {
+                            aluno.Nota = nota;
+                        }
+                        else
+                        {
+                            throw new ArgumentException("O valor da nota deve ser decimal !");
+                        }
 
-                    	alunos [indiceAluno] = aluno;
+                        alunos[indiceAluno] = aluno;
 
-                    	indiceAluno++;
+                        indiceAluno++;
                         break;
                     case "2":
                         //TO DO: Listar alunos
-                    foreach (var a in alunos) 
-                    {
-                    	if(!string.IsNullOrEmpty(a.Nome))
-                    	{
-                    	Console.WriteLine($"Alunos:{a.Nome} - NOTA: {a.Nota}");
-                    	}
-                    }
+                        foreach (var a in alunos)
+                        {
+                            if (!string.IsNullOrEmpty(a.Nome))
+                            {
+                                Console.WriteLine($"Alunos:{a.Nome} - NOTA: {a.Nota}");
+                            }
+                        }
                         break;
                     case "3":
                         //TO DO: Calcular média geral
+                        decimal notaTotal = 0;
+                        var numeroAlunos = 0;
+                        for (int i = 0; i < alunos.Length; i++)
+                        {
+                            if (!string.IsNullOrEmpty(alunos[i].Nome))
+                            {
+                                notaTotal = notaTotal + alunos[i].Nota;
+                                numeroAlunos++;
+                            }
+                        }
+                        var mediaGeral = notaTotal / numeroAlunos;
+                        Conceito ConceitoGeral;
+
+                        if(mediaGeral < 2){
+                        	ConceitoGeral = Conceito.E;
+                        }else if (mediaGeral < 4) {
+                        	ConceitoGeral = Conceito.D;
+                        }else if (mediaGeral < 6) {
+                        	ConceitoGeral = Conceito.C;
+                        }else if (mediaGeral < 8) {
+                        	ConceitoGeral = Conceito.B;
+                        }else{
+                        	ConceitoGeral = Conceito.A;
+                        }
+                        Console.WriteLine($"Media Geral:{mediaGeral} - Conceito: {ConceitoGeral}");
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
